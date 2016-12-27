@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_slidingmenu_left">
+
+
+    <com.project.dailynewsb.dailynews.util.CircleImageView
+        android:id="@+id/imageView_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="立即登录"
+        android:textColor="#ffffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/right_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="版本升级"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

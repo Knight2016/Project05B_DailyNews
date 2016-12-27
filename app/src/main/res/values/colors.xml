@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--标题头背景颜色 -->
+    <color name="title_bg">#303F9F</color>
+
+    <!-- 白色-->
+    <color name="white">#FFFFFF</color>
+
+    <!--透明色 -->
+    <color name="transparent">#00000000</color>
+
+    <color name="colorBlue">#6BC172</color>
+
+    <!--进度条背景色 -->
+    <color name="progressbarColor">#B9B9A3</color>
+
+    <!-- 线颜色 -->
+    <color name="line_color">#DCDCDC</color>
+</resources>
